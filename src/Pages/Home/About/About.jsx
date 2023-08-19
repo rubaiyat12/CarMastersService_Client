@@ -16,15 +16,12 @@ const About = () => {
                     <h1 className="text-5xl font-bold">
                         We are Qualified and Experience in this field.
                     </h1>
-                    <p className="py-6"> Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Officia temporibus
-                        fugiat repudiandae perferendis
-                        enim impedit omnis eum ab cum necessitatibus.
+                    <p className="py-6"> Our website serves as a one-stop hub for all your car servicing needs. Here, you can effortlessly schedule appointments, access detailed service packages,
+                        and receive instant quotes tailored to your specific make and model.
                         </p>
-                    <p className="py-6"> Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Officia temporibus
-                        fugiat repudiandae perferendis
-                        enim impedit omnis eum ab cum necessitatibus.
+                    <p className="py-6"> We understand that your time is valuable,
+                        so we have streamlined the process to
+                        save you time and effort while ensuring top-notch care for your vehicle.
                         </p>
                     <button className="btn btn-warning">Get More Info</button>
                 </div>

@@ -32,8 +32,9 @@ const Banner = () => {
                 <div className="absolute flex items-center h-full   
                   left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
                     <div className='text-white space-y-7 pl-12 w-1/2'>
-                        <h2 className='text-6xl font-bold'>Affordable Price for Car Sevesing..</h2>
-                        <p>There are many variation of passeges of avilable, But the majority have suffered in som form </p>
+                        <h2 className='text-6xl font-bold'>Cost-effective Car Maintenance Services..</h2>
+                        <p>Cost-effective car maintenance services typically focus on efficiency and practicality. Service providers
+                            aim to deliver quality care without compromising on the integrity of the work. </p>
                         <div>
                             <button className="btn btn-active btn-primary mr-5">Discover more</button>
                             <button className="btn btn-outline btn-secondary">Latest Project</button>
@@ -51,8 +52,9 @@ const Banner = () => {
                 <div className="absolute flex items-center h-full   
                   left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
                     <div className='text-white space-y-7 pl-12 w-1/2'>
-                        <h2 className='text-6xl font-bold'>Affordable Price for Car Sevesing..</h2>
-                        <p>There are many variation of passeges of avilable, But the majority have suffered in som form </p>
+                        <h2 className='text-6xl font-bold'>Cost-effective Car Maintenance Services..</h2>
+                        <p>Cost-effective car maintenance services typically focus on efficiency and practicality. Service providers
+                            aim to deliver quality care without compromising on the integrity of the work. </p>
                         <div>
                             <button className="btn btn-active btn-primary mr-5">Discover more</button>
                             <button className="btn btn-outline btn-secondary">Latest Project</button>
@@ -70,8 +72,9 @@ const Banner = () => {
                 <div className="absolute flex items-center h-full   
                   left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)]">
                     <div className='text-white space-y-7 pl-12 w-1/2'>
-                        <h2 className='text-6xl font-bold'>Affordable Price for Car Sevesing..</h2>
-                        <p>There are many variation of passeges of avilable, But the majority have suffered in som form </p>
+                        <h2 className='text-6xl font-bold'>Cost-effective Car Maintenance Services..</h2>
+                        <p>Cost-effective car maintenance services typically focus on efficiency and practicality. Service providers
+                            aim to deliver quality care without compromising on the integrity of the work. </p>
                         <div>
                             <button className="btn btn-active btn-primary mr-5">Discover more</button>
                             <button className="btn btn-outline btn-secondary">Latest Project</button>
