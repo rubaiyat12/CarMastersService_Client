@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import { serverLink } from "../../serverlink/serverlink";
 
 
 
@@ -25,7 +26,7 @@ const BookServices = () => {
             price:price
         }
         console.log(booking);
-        fetch('http://localhost:5000/bookings', {
+        fetch(`${serverLink} /bookings`, {
             method: 'POST',
             headers: {
                 'content-type':'application/json'

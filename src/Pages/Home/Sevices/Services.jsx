@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import ServiceCart from "./ServiceCart";
+import { serverLink } from "../../../serverlink/serverlink";
 
 
 
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch(`${serverLink}/services`)
             .then(res => res.json())
         .then(data=>setServices(data))
     },[])

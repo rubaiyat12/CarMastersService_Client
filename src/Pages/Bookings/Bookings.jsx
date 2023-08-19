@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import BookingsRow from "./BookingsRow";
 import { useNavigate } from "react-router-dom";
+import { serverLink } from "../../serverlink/serverlink";
 
 
 const Bookings = () => {
@@ -10,7 +11,7 @@ const Bookings = () => {
     const navigate = useNavigate();
 
 
-    const url = `http://localhost:5000/bookings?email=${user?.email}`;
+    const url = `${serverLink}/bookings?email=${user?.email}`;
     useEffect(() => {
         fetch(url, {
             method: 'GET',
@@ -33,7 +34,7 @@ const Bookings = () => {
     const handleDelete = id => {
         const proceed = confirm('Are you sure you want to delete that');
         if (proceed) {
-            fetch(`http://localhost:5000/bookings/${id}`, {
+            fetch(`${serverLink}/bookings/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
@@ -50,7 +51,7 @@ const Bookings = () => {
         }
     }
     const handleBookingConfirm = id => {
-        fetch(`http://localhost:5000/bookings/${id}`, {
+        fetch(`${serverLink}/bookings/${id}`, {
             method: 'PATCH',
             headers: {
                 'content-type' : 'application/json'

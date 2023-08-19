@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
 import app from "../firebase/firebase.config";
+import { serverLink } from "../serverlink/serverlink";
 
 export const AuthContext = createContext();
 const auth = getAuth(app);
@@ -42,7 +43,7 @@ const AuthProvider = ({ children }) => {
                 const loggedUser = {
                     email:createUser.email
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch(`${serverLink}/jwt`, {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
